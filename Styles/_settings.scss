@@ -1,0 +1,22 @@
+
+$font1: Arial, Helvetica, sans-serif;
+$font2: Georgia, 'Times New Roman', Times, serif;
+$black1: rgba(19, 19, 19, 0.76);
+$black2: rgb(14, 14, 14);
+$creme: rgb(255, 247, 212);
+$rose: rgba(255, 143, 161, 0.918);
+$grey: rgba(138, 138, 138, 0.363);
+
+@mixin center{
+    justify-content: center;
+    text-align: justify;
+    padding: 30px 10px 16px 10px;
+    margin: 12px 10px;
+    letter-spacing: 0.2rem;
+    line-height: 1.9rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}

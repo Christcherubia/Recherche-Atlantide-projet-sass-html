@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.header {
+  justify-content: center;
+  text-align: justify;
+  padding: 30px 10px 16px 10px;
+  margin: 12px 10px;
+  letter-spacing: 0.2rem;
+  line-height: 1.9rem;
+  background: rgb(14, 14, 14);
+  border-radius: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header h1 {
+  text-shadow: 0.5px 0.4px 0.7px rgba(255, 143, 161, 0.918);
+  color: white;
+  padding: 12px;
+}
+.header nav {
+  background-color: rgb(255, 247, 212);
+  border-radius: 12px;
+  justify-content: center;
+  text-align: justify;
+  padding: 30px 10px 16px 10px;
+  margin: 12px 10px;
+  letter-spacing: 0.2rem;
+  line-height: 1.9rem;
+}
+.header nav ul {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 33% 33% 32%;
+}
+.header nav ul li, .header nav ul a {
+  list-style-type: none;
+  color: rgba(255, 143, 161, 0.918);
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  text-shadow: 0.3px 0.5px rgba(19, 19, 19, 0.76);
+}
+
+main {
+  justify-content: center;
+  text-align: justify;
+  padding: 30px 10px 16px 10px;
+  margin: 12px 10px;
+  letter-spacing: 0.2rem;
+  line-height: 1.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .container-1 {
+  margin: 15px 5px 25px 5px;
+  font-weight: 500;
+}
+main .container-2 {
+  padding: 15px 15px;
+  background-color: rgb(255, 247, 212);
+  border-radius: 9px;
+}
+main .container-2 h2 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .container-2 .map-text-container-political {
+  display: flex;
+  justify-content: space-between;
+}
+main .container-2 .map-text-container-political #political-map {
+  float: right;
+  background-image: url("/Styles/Maps/WorldPoliticalMap.png");
+  height: 100vh;
+  width: 36rem;
+  border-radius: 1500px;
+}
+main .container-2 .map-text-container-political .text-container-political {
+  margin: 15px 50px;
+  padding: 15px 200px 10px 5px;
+}
+main .container-3 {
+  margin: auto 0;
+}
+main .container-3 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .container-3 .physical-world-map-png-container {
+  background: url("/Styles/Maps/PhysicalWorldPartielMap.png");
+  height: 150vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 9px;
+  box-shadow: -1.5px 2px 2px rgba(19, 19, 19, 0.76);
+}
+main .container-3 .physical-world-map-png-container .text-container-physical-map {
+  display: grid;
+  grid-template-columns: 55% 50%;
+  color: rgb(255, 247, 212);
+}
+main .container-3 .physical-world-map-png-container .text-container-physical-map .text-physical-map {
+  margin: 20px 45px 50px 15px;
+  padding: 10px 50px 10px 15px;
+  background-color: rgba(138, 138, 138, 0.363);
+  font-size: 1.3rem;
+  text-shadow: 1px 0.5px 2px rgb(14, 14, 14);
+}
+main .container-3 .physical-world-map-png-container .fausse-position-container {
+  margin: auto 0;
+  padding: 5px 15px 25px 10px;
+}
+main .container-3 .physical-world-map-png-container .fausse-position-container .fausse-position-text {
+  margin: 5px 20px 15px 90px;
+  padding: 40px 100px 50px 20px;
+  font-size: 1.1rem;
+}
+main .container-3 .physical-world-map-png-container .fausse-position-container .fausse-position-text #fausse-position-atlantis {
+  background: url("/Styles/Maps/FaussePositionAtlantis.png");
+  background-size: cover;
+  margin: 20px 2px 0 -90px;
+  position: relative;
+  height: 300px;
+  width: 450px;
+  z-index: 99;
+}
+main hr {
+  border: solid 1.2px;
+  margin: 25px 5px;
+  border-radius: 9px;
+  color: rgb(14, 14, 14);
+}
+
+.container-4 {
+  background: url("/Styles/Maps/MapOfTheWorldByVOC.png");
+  background-size: cover;
+  margin-top: 25px;
+  padding: 25px;
+  height: 150vh;
+  border-radius: 9px;
+  color: rgb(255, 247, 212);
+  font-size: 1.2rem;
+  text-shadow: 0.9px 0.7px 1.1px rgba(19, 19, 19, 0.76);
+}/*# sourceMappingURL=index.css.map */

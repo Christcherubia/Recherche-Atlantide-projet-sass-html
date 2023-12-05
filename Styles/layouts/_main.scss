@@ -1,0 +1,111 @@
+// Toute la Page "Main"
+main {
+  @include center;
+  font-family: $font1;
+
+  // Section 1)
+  .container-1 {
+    margin: 15px 5px 25px 5px;
+    font-weight: 500;
+  }
+  // Section 2)
+  .container-2 {
+    padding: 15px 15px;
+    background-color: $creme;
+    border-radius: 9px;
+
+    h2 {
+      position: absolute;
+      font-family: $font1;
+    }
+
+    .map-text-container-political {
+      display: flex;
+      justify-content: space-between;
+
+      #political-map {
+        float: right;
+        background-image: url("/Styles/Maps/WorldPoliticalMap.png");
+        height: 100vh;
+        width: 36rem;
+        border-radius: 1500px;
+      }
+
+      .text-container-political {
+        margin: 15px 50px;
+        padding: 15px 200px 10px 5px;
+      }
+    }
+  }
+  // Section 3)
+  .container-3 {
+    margin: auto 0;
+
+    h2 {
+      font-family: $font1;
+    }
+
+    .physical-world-map-png-container {
+      background: url("/Styles/Maps/PhysicalWorldPartielMap.png");
+      height: 150vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 9px;
+      box-shadow: -1.5px 2px 2px $black1;
+
+      .text-container-physical-map {
+        display: grid;
+        grid-template-columns: 55% 50%;
+        color: $creme;
+
+        .text-physical-map {
+          margin: 20px 45px 50px 15px;
+          padding: 10px 50px 10px 15px;
+          background-color: $grey;
+          font-size: 1.3rem;
+          text-shadow: 1px 0.5px 2px $black2;
+        }
+      }
+
+      .fausse-position-container {
+        margin: auto 0;
+        padding: 5px 15px 25px 10px;
+
+        .fausse-position-text {
+          margin: 5px 20px 15px 90px;
+          padding: 40px 100px 50px 20px;
+          font-size: 1.1rem;
+
+          #fausse-position-atlantis {
+            background: url("/Styles/Maps/FaussePositionAtlantis.png");
+            background-size: cover;
+            margin: 20px 2px 0 -90px ;
+            position: relative;
+            height: 300px;
+            width: 450px;
+            z-index: 99;
+          }
+        }
+      }
+    }
+  }
+
+  hr {
+    border: solid 1.2px;
+    margin: 25px 5px;
+    border-radius: 9px;
+    color: $black2;
+  }
+}
+
+.container-4 {
+  background: url("/Styles/Maps/MapOfTheWorldByVOC.png");
+  background-size: cover;
+  margin-top: 25px;
+  padding: 25px;
+  height: 150vh;
+  border-radius: 9px;
+  color: $creme;
+  font-size: 1.2rem;
+  text-shadow: 0.9px 0.7px 1.1px $black1;
+}
